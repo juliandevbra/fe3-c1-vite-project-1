@@ -1,17 +1,11 @@
 import './App.css'
-import Card from './components/Card'
-import ClassComponent from './components/ClassComponent'
-import FuncComponent from './components/FuncComponent'
+import Home from './components/Home'
 
 function App() {
-  let arr = [1,2,3]
+
   return (
       <>
-        <ClassComponent/>
-        <FuncComponent/>
-        <Card index={arr[0]}/>
-        <Card index={arr[1]}/>
-        <Card index={arr[2]}/>
+        <Home/>
       </>
   )
 }

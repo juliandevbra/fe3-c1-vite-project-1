@@ -1,10 +1,15 @@
-const Card = ({index}) => {
-    console.log(index)
+import './Card.css'
+const Card = ({pizza}) => {
+    
   return (
-    <>
-       <h3>Titulo de la card: Elemento n° {index}</h3>
-    </>
-  )
+      <div className="card">
+        <img src={pizza.img} alt="" className="card-img"/>
+        <h3>{pizza.tipo}</h3>
+        <h4>{pizza.precio}</h4>
+        <button>Comprar</button>
+      </div>
+  ) 
 }
 
 export default Card
+
