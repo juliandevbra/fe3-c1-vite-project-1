@@ -1,15 +1,15 @@
+
 import './App.css'
-import ClassComponent from './components/ClassComponent'
-import FuncComponent from './components/FuncComponent'
+import Form from './components/Form'
+
 
 
 function App() {
 
-  return (
-      <>
-        {/* <ClassComponent /> */}
-        <FuncComponent/>
-      </>
+  return(
+    <div>
+      <Form/>
+    </div>
   )
 }
 
